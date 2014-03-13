@@ -27,6 +27,10 @@
     NSLog(@"rec btn pressed");
 }
 
+-(void) nonsense
+{
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
