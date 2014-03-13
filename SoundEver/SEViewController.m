@@ -14,10 +14,17 @@
 
 @implementation SEViewController
 
+@synthesize recordButton;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(IBAction)recordButtonPressed:(id)sender
+{
+    NSLog(@"rec btn pressed");
 }
 
 - (void)didReceiveMemoryWarning
