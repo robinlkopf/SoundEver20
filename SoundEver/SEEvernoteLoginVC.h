@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SEEvernoteLoginVC : UIViewController
+@interface SEEvernoteLoginVC : UIViewController <UITextFieldDelegate>
+{
+    NSString *loginName;
+}
+
+@property (nonatomic, strong) IBOutlet UITextField *nameInputField;
 
 @end
