@@ -10,4 +10,8 @@
 
 @interface SEViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIButton *recordButton;
+
+-(IBAction)recordButtonPressed:(id)sender;
+
 @end

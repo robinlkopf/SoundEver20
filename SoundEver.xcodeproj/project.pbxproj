@@ -21,6 +21,8 @@
 		EA581DC118D202C9008C096B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA581DA318D202C9008C096B /* UIKit.framework */; };
 		EA581DC918D202C9008C096B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA581DC718D202C9008C096B /* InfoPlist.strings */; };
 		EA581DCB18D202C9008C096B /* SoundEverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA581DCA18D202C9008C096B /* SoundEverTests.m */; };
+		EA60D6A518D219120078404D /* SEEvernoteLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA60D6A418D219120078404D /* SEEvernoteLoginVC.m */; };
+		EA60D6A618D219120078404D /* SEEvernoteLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA60D6A418D219120078404D /* SEEvernoteLoginVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		EA581DC618D202C9008C096B /* SoundEverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundEverTests-Info.plist"; sourceTree = "<group>"; };
 		EA581DC818D202C9008C096B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA581DCA18D202C9008C096B /* SoundEverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundEverTests.m; sourceTree = "<group>"; };
+		EA60D6A318D219120078404D /* SEEvernoteLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEEvernoteLoginVC.h; sourceTree = "<group>"; };
+		EA60D6A418D219120078404D /* SEEvernoteLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEEvernoteLoginVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				EA581DB118D202C9008C096B /* Main.storyboard */,
 				EA581DB418D202C9008C096B /* SEViewController.h */,
 				EA581DB518D202C9008C096B /* SEViewController.m */,
+				EA60D6A318D219120078404D /* SEEvernoteLoginVC.h */,
+				EA60D6A418D219120078404D /* SEEvernoteLoginVC.m */,
 				EA581DB718D202C9008C096B /* Images.xcassets */,
 				EA581DA618D202C9008C096B /* Supporting Files */,
 			);
@@ -253,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA60D6A518D219120078404D /* SEEvernoteLoginVC.m in Sources */,
 				EA581DB018D202C9008C096B /* SEAppDelegate.m in Sources */,
 				EA581DB618D202C9008C096B /* SEViewController.m in Sources */,
 				EA581DAC18D202C9008C096B /* main.m in Sources */,
@@ -263,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA60D6A618D219120078404D /* SEEvernoteLoginVC.m in Sources */,
 				EA581DCB18D202C9008C096B /* SoundEverTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +474,7 @@
 				EA581DD018D202C9008C096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA581DD118D202C9008C096B /* Build configuration list for PBXNativeTarget "SoundEverTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +483,7 @@
 				EA581DD318D202C9008C096B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
