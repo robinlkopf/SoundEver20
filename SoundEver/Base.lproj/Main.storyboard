@@ -60,11 +60,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="loginPressed:" destination="1Ah-e9-Oc8" eventType="editingDidEnd" id="YPI-6i-N3b"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="inputField" destination="Liv-cC-FvS" id="DUJ-gm-r1J"/>
                         <outlet property="nameInputField" destination="Liv-cC-FvS" id="TdU-Gd-q2a"/>
                     </connections>
                 </viewController>

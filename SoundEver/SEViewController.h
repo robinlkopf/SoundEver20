@@ -13,5 +13,6 @@
 @property (nonatomic, strong) IBOutlet UIButton *recordButton;
 
 -(IBAction)recordButtonPressed:(id)sender;
+-(void)nonsense;
 
 @end

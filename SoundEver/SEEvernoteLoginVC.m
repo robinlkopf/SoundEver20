@@ -24,6 +24,8 @@
     }
     return self;
 }
+- (IBAction)loginPressed:(id)sender {
+}
 
 - (void)viewDidLoad
 {

@@ -14,5 +14,6 @@
 }
 
 @property (nonatomic, strong) IBOutlet UITextField *nameInputField;
+@property (weak, nonatomic) IBOutlet UITextField *inputField;
 
 @end
